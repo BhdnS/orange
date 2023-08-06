@@ -1,0 +1,26 @@
+.task {
+	margin-top: 150px;
+
+	&_flex {
+		margin-top: 30px;
+	}
+
+	&_box {
+		gap: 30px;
+	}
+}
+
+.box {
+
+	&_text {
+		line-height: 3.6rem;
+	}
+
+	&_text-one {
+		max-width: 279px;
+	}
+
+	&_text-two {
+		max-width: 420px;
+	}
+}

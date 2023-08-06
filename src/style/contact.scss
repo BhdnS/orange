@@ -1,0 +1,64 @@
+.contact {
+	margin-top: 120px;
+
+	&_box {
+		margin-top: 22px;
+		gap: 39px;
+	}
+
+	&_img {
+		max-height: 369px;
+	}
+}
+
+
+.box {
+	&_form {
+		gap: 10px;
+	}
+
+	&_form-ok {
+		margin-top: 18px;
+		gap: 10px;
+	}
+
+	&_form-message {
+		min-height: 147px;
+	}
+
+	&_form-btn {
+		margin-top: 15px;
+		max-width: 222px;
+		padding: 23px 53px;
+	}
+}
+
+.ok_radio:checked + .ok_text::before {
+	content: "";
+	background-image: url("./images/elements/checked.svg");
+	background-position: center;
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+}
+
+.ok_radio {
+	display: none;
+}
+
+.ok_radio + .ok_text::before {
+	content: "";
+	display: inline-block;
+	background-color: #F3F3F3;
+	width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.box_form-ok {
+	display: flex;
+}
+
+.ok_para {
+	max-width: 340px;
+}

@@ -1,0 +1,41 @@
+@import "./variable.scss";
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.btn {
+	transition-duration: 0.5s;
+	padding: 30px 53px;
+	letter-spacing: 2.4px;
+}
+
+.arrow_m {
+	margin-left: 12px;
+}
+
+.h_w:hover {
+	cursor: pointer;
+	background-color: $gainsboro;
+	transition-duration: 0.5s;
+}
+
+.h_b:hover {
+	cursor: pointer;
+	background-color: $gray;
+	transition-duration: 0.5s;
+}
+
+.img {
+	max-width: 100%;
+}
+
+.ls {
+	letter-spacing: 0.56px;
+}

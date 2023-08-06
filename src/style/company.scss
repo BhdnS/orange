@@ -1,0 +1,55 @@
+.company {
+	margin-top: 120px;
+
+	&_box {
+		padding: 30px 70px 30px 100px;
+		overflow: visible;
+		max-height: 435px;
+		gap: 30px;
+	}
+}
+
+.company_box {
+
+	&__picture {
+		gap: 30px;
+	}
+
+	&__presentation {
+		max-width: 390px;
+	}
+}
+.presentation {
+	&_text {
+		margin: 20px 0px 50px 0px;
+		line-height: 25px;
+		max-width: 400px;
+	}
+
+	&_btn {
+		padding: 30px 62px;
+	}
+}
+
+.picture_box {
+	gap: 30px;
+}
+
+.img_1 {
+	max-height: 265px;
+}
+
+.img_2 {
+	max-height: 170px;
+}
+
+.img_3 {
+	margin-top: 32px;
+	max-height: 345px;
+}
+
+.picture_box {
+	&__img {
+		object-fit: contain;
+	}
+}
