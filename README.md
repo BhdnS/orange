@@ -1,3 +1,3 @@
-# orange
+# Orange
 
 [Smart Orange](https://bhdns.github.io/orange/dist/index.html)
