@@ -1,7 +1,7 @@
 export default class Form {
-  constructor(param) {
-    this.name = param.name;
-    this.phone = param.phone;
+  constructor() {
+    this.name = document.querySelector('#name');
+    this.phone = document.querySelector('#phone');
   }
 
   nameValidation() {
